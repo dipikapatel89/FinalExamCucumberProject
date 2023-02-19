@@ -1,0 +1,182 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2544782100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundColorStepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be change the background color",
+        "description": "",
+        "id": "background-color-change-functionality-validation;user-should-be-change-the-background-color",
+        "after": [
+          {
+            "result": {
+              "duration": 890402100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundColorStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 753285400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on set background page",
+            "match": {
+              "location": "BackgroundColorStepDefination.user_is_on_set_background_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72399600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on the skyblue button",
+            "match": {
+              "location": "BackgroundColorStepDefination.user_click_on_the_skyblue__button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31268400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The background color will change to sky blue",
+            "match": {
+              "location": "BackgroundColorStepDefination.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 5,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1323196100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundColorStepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should change the background color",
+        "description": "",
+        "id": "background-color-change-functionality-validation;user-should-change-the-background-color",
+        "after": [
+          {
+            "result": {
+              "duration": 864749900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BackgroundColorStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 465520000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on set background page",
+            "match": {
+              "location": "BackgroundColorStepDefination.user_is_on_set_background_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63881200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on the white button",
+            "match": {
+              "location": "BackgroundColorStepDefination.user_click_on_the_white_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34848600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The background color will change to white",
+            "match": {
+              "location": "BackgroundColorStepDefination.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Scenario2"
+          },
+          {
+            "line": 11,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Background color change functionality validation",
+    "description": "",
+    "id": "background-color-change-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/BackgroundColor.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BackgroundColorValidation"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      },
+      {
+        "line": 2,
+        "name": "@BackgroundColor"
+      }
+    ]
+  }
+]
